@@ -85,92 +85,95 @@ Manejo de Datos Malformados: El programa verifica que los datos leídos del arch
 
 ## Ejemplo de uso
  El jugador ve su estado actual, incluyendo el escenario en el que está, su inventario y las direcciones disponibles para moverse.
-Mostrar Estado Actual
+### Mostrar Estado Actual
 
 Ingrese su opción: 3
---- Turno del Jugador 1 ---
-Escenario actual: Entrada principal
-Ítems disponibles:
 
-Linterna (Peso: 5, Valor: 10)
-Inventario (0 kg, 0 pts):
-(Inventario vacío)
-Tiempo restante: 10
-Direcciones disponibles:
+    --- Turno del Jugador 1 ---
+    Escenario actual: Entrada principal
+    Ítems disponibles:
 
-Arriba
+    Linterna (Peso: 5, Valor: 10)
+    Inventario (0 kg, 0 pts):
+    (Inventario vacío)
+    Tiempo restante: 10
+    Direcciones disponibles:
 
-Abajo
+    Arriba
 
-Izquierda
+    Abajo
 
-Derecha
+    Izquierda
 
-Presione cualquier tecla para continuar...
+    Derecha
+
+    Presione cualquier tecla para continuar...
 
 Opción 4: El jugador decide recoger un ítem disponible en el escenario y agregarlo a su inventario.
 Recoger ítem(s)
 
-Ingrese su opción: 4
-Ítems disponibles:
+    Ingrese su opción: 4
+    Ítems disponibles:
 
-Linterna (Peso: 5, Valor: 10)
-Ingrese el número del ítem a recoger (0 para cancelar): 1
-Ítem recogido: Linterna (Peso: 5, Valor: 10)
-Inventario (5 kg, 10 pts):
+    Linterna (Peso: 5, Valor: 10)
+    Ingrese el número del ítem a recoger (0 para cancelar): 1
+    Ítem recogido: Linterna (Peso: 5, Valor: 10)
+    Inventario (5 kg, 10 pts):
 
-Linterna (Peso: 5, Valor: 10)
-Tiempo restante: 9
+    Linterna (Peso: 5, Valor: 10)
+    Tiempo restante: 9
 
-Presione cualquier tecla para continuar...
+    Presione cualquier tecla para continuar...
 
-Opción 5: El jugador decide avanzar en una dirección disponible y se mueve a un nuevo escenario.
+### Opción 5: El jugador decide avanzar en una dirección disponible y se mueve a un nuevo escenario.
 Avanzar en una dirección
 
-Ingrese su opción: 5
-Direcciones disponibles:
+    Ingrese su opción: 5
+    Direcciones disponibles:
 
-Arriba -> Escenario ID: 2, Descripción: Librería
+    Arriba -> Escenario ID: 2, Descripción: Librería
 
-Abajo -> Escenario ID: 3, Descripción: Caverna oscura
+    Abajo -> Escenario ID: 3, Descripción: Caverna oscura
 
-Izquierda -> Escenario ID: 4, Descripción: Estudio
+    Izquierda -> Escenario ID: 4, Descripción: Estudio
+    
+    Derecha -> Escenario ID: 5, Descripción: Cocina
+    Ingrese el número de la dirección a avanzar (0 para cancelar): 2
+    Avanzaste a: Caverna oscura
+    Tiempo restante: 8
+    
+    Presione cualquier tecla para continuar...
 
-Derecha -> Escenario ID: 5, Descripción: Cocina
-Ingrese el número de la dirección a avanzar (0 para cancelar): 2
-Avanzaste a: Caverna oscura
-Tiempo restante: 8
-
-Presione cualquier tecla para continuar...
-
-Opción 6: El jugador decide descartar un ítem de su inventario para reducir peso.
+### Opción 6: El jugador decide descartar un ítem de su inventario para reducir peso.
 Descartar ítem(s)
 
-Ingrese su opción: 6
-Ítems en tu inventario:
+    Ingrese su opción: 6
+    Ítems en tu inventario:
+    
+    Linterna (Peso: 5, Valor: 10)
+    Ingrese el número del ítem a descartar (0 para cancelar): 1
+    Ítem descartado: Linterna (Peso: 5, Valor: 10)
+    Inventario (0 kg, 0 pts):
+    (Inventario vacío)
+    Tiempo restante: 7
+    
+    Presione cualquier tecla para continuar...
 
-Linterna (Peso: 5, Valor: 10)
-Ingrese el número del ítem a descartar (0 para cancelar): 1
-Ítem descartado: Linterna (Peso: 5, Valor: 10)
-Inventario (0 kg, 0 pts):
-(Inventario vacío)
-Tiempo restante: 7
-
-Presione cualquier tecla para continuar...
-
-Opción 7: El jugador decide reiniciar la partida, borrando su inventario y reiniciando el tiempo.
+### Opción 7: El jugador decide reiniciar la partida, borrando su inventario y reiniciando el tiempo.
 Reiniciar Partida
 
-Ingrese su opción: 7
-Partida reiniciada.
-Inventario (0 kg, 0 pts):
-(Inventario vacío)
-Tiempo restante: 10
-Presione cualquier tecla para continuar...
+    Ingrese su opción: 7
+    Partida reiniciada.
+    Inventario (0 kg, 0 pts):
+    (Inventario vacío)
+    Tiempo restante: 10
+    Presione cualquier tecla para continuar...
 
-Opción 8: El jugador decide salir del juego.
+### Opción 8: El jugador decide salir del juego.
 Salir
 
-Ingrese su opción: 8
-Saliendo del juego...
-Fin de la partida.
+    Ingrese su opción: 8
+    Saliendo del juego...
+    Fin de la partida.
+
+No hubieron contribuciones el trabajo fue individual.
