@@ -109,7 +109,7 @@ Ingrese su opción: 3
 
     Presione cualquier tecla para continuar...
 
-Opción 4: El jugador decide recoger un ítem disponible en el escenario y agregarlo a su inventario.
+### Opción 4: El jugador decide recoger un ítem disponible en el escenario y agregarlo a su inventario.
 Recoger ítem(s)
 
     Ingrese su opción: 4
